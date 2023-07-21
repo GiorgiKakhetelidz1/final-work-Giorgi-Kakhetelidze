@@ -1,0 +1,69 @@
+@mixin paragraph {
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%;
+}
+@mixin container {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+// font-size: 70px
+@mixin H1 {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+// font-size: 50px
+@mixin H2 {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+// font-size: 40px
+@mixin H3 {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+// font-size: 35px
+@mixin H4 {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+// font-size: 30px
+@mixin H5 {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+// font-size: 25px
+@mixin H6 {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
