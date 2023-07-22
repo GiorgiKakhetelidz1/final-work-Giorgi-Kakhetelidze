@@ -1,21 +1,27 @@
 header {
     .top {
-        max-width: 1200px;
+        max-width: 1440px;
         width: 100%;
         height: 180px;
         margin: 0 auto;
-        border: 1px solid black;
+        
         display: flex;
         align-items: center;
+        justify-content: space-around;
         .topchild1 {
-            border: 1px solid green;
+            
             height: 100%;
-            width: 800px;
+            width: 750px;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
             .logo {
                 display: inline-block;
+                a {
+                    i {
+                        color: $darkblue;
+                    }
+                }
             }
             nav {
                 max-width: 564px;
@@ -45,11 +51,55 @@ header {
                                 font-style: normal;
                                 font-weight: 700;
                                 line-height: normal;
+                                cursor: pointer;
                             }
                         }
                     }
                 }
             }
+        }   
+    }   .topchild2 {
+            
+            height: 100%;
+            width: 570px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            input {
+                width: 376px;
+                height: 66px;
+                flex-shrink: 0;
+                border-radius: 36px;
+                background: #FAFAFA;
+                border: none;
+                border-color: white;
+                padding-left: 20px;
+                font-size: 25px;
+                background-image: url(../images/Search\ Icon.svg);
+                background-repeat: no-repeat;
+                background-position: 310px, 0px;
+            }
+            button {
+                width: 159px;
+                height: 66px;
+                padding-left: 50px;
+                flex-shrink: 0;
+                background: white;
+                border-radius: 36px;
+                border: 1px solid #E0E0E0;
+                color: #274C5B;
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                background-image: url(../images/Cart\ Icon.svg);
+                background-repeat: no-repeat;
+                background-position: 6px, 10px;
+                
+                
+                
+            }
+            
         }
-    }
 }
