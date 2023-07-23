@@ -4,40 +4,84 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    .card {
-        width: 682px;
-        height: 367px;
-        overflow: hidden;
-        margin-right: 36px;
-        position: relative;
-        h4 {
+    .mydiv1 {
+        .card {
+            width: 682px;
+            height: 367px;
+            overflow: hidden;
+            margin-right: 36px;
+            position: relative;
+            background-image: url(../images/Image1.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
             
-            position: absolute;
-            color: #FFF;
-            font-family: Yellowtail;
-            font-size: 36px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-        }
-        h5 {
-            
-            position: absolute;
+        
+            .myh4 {
+                    
+                position: absolute;
+                left: 50px;
+                color: $whyte;
+                font-family: 'Yellowtail', cursive;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                top: 115px;
+                
+            }
+            .myh3 {
+                
+                position: absolute;
+                left: 50px;
+                color: $whyte;
+                font-family: 'Roboto', sans-serif;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                width: 250px;
+                top: 172px;
+            }
+        }    
+    }   
+    .mydiv2 {
+        .card2 {
+            width: 682px;
+            height: 367px;
+            overflow: hidden;
+            margin-right: 36px;
+            position: relative;
+            background-image: url(../images/Image2.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            h4 {
+                color: $lightgreen;
+                font-family: 'Yellowtail';
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                position: absolute;
+                left: 50px;
+                top: 115px;
+            }
+            h3 {
+                color: $darkblue;
+                font-family: 'Roboto';
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                width: 270px;
+                position: absolute;
+                left: 50px;
+                top: 172px;
+                
+            }
         }
     }
-    .card2 {
-        width: 682px;
-        height: 367px;
-        overflow: hidden;
-        position: relative;
-        h4 {
-            
-            position: absolute;
-        }
-        h5 {
-            
-            position: absolute;
-        }
-    }
+    
 
 }
