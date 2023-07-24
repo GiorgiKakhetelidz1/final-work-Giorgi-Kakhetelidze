@@ -206,7 +206,7 @@ header .topchild2 button {
   font-weight: 800;
   line-height: normal;
 }
-.s-1 .s-1child button {
+.s-1 .s-1child a button {
   width: 220px;
   height: 79px;
   padding-right: 40px;
@@ -224,8 +224,12 @@ header .topchild2 button {
   background-position: 162px;
   cursor: pointer;
 }
-.s-1 .s-1child button :hover {
+.s-1 .s-1child a button:hover {
+  color: #F9F8F8;
   background: #c4a22b;
+  background-image: url(../images/Aerrow.svg);
+  background-repeat: no-repeat;
+  background-position: 162px;
 }
 
 .s-2 {

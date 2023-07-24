@@ -30,27 +30,33 @@
                 font-weight: 800;
                 line-height: normal;
             }
-            button {
-                width: 220px;
-                height: 79px;
-                padding-right: 40px;
-                border: none;
-                border-radius: 16px;
-                background: $darkyellow;
-                color: #274C5B;
-                font-family: 'Roboto', sans-serif;
-                font-size: 20px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: normal;
-                background-image: url(../images/Aerrow.svg);
-                background-repeat: no-repeat;
-                background-position: 162px;
-                cursor: pointer;
-            }
-            button :hover {
-                background: #c4a22b;
-            }
+            a {    
+                button {
+                    width: 220px;
+                    height: 79px;
+                    padding-right: 40px;
+                    border: none;
+                    border-radius: 16px;
+                    background: $darkyellow;
+                    color: #274C5B;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    background-image: url(../images/Aerrow.svg);
+                    background-repeat: no-repeat;
+                    background-position: 162px;
+                    cursor: pointer;
+                }
+                button:hover {
+                    color: $whyte;
+                    background: #c4a22b;
+                    background-image: url(../images/Aerrow.svg);
+                    background-repeat: no-repeat;
+                    background-position: 162px;
+                }
+            }    
         }
 
     }
