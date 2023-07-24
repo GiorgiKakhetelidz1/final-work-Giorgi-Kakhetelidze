@@ -1,0 +1,17 @@
+.s-4 {
+    width: 100%;
+    background-image: url(../images/leather.jpg);
+    height: 700px;
+    border-radius: 49px;
+    border: 15px solid rgb(110, 10, 10);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    div {
+        width: 700px;
+        height: 430px;
+        background-color: $lightgrey;
+        border-radius: 40px;
+    }
+
+}

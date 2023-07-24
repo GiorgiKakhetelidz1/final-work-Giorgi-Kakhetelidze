@@ -1,15 +1,17 @@
 .s-2 {
+    max-width: 1440px;
     width: 100%;
     height: 500px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
     .mydiv1 {
         .card {
             width: 682px;
             height: 367px;
             overflow: hidden;
-            margin-right: 36px;
+           
             position: relative;
             background-image: url(../images/Image1.png);
             background-repeat: no-repeat;
@@ -50,7 +52,7 @@
             width: 682px;
             height: 367px;
             overflow: hidden;
-            margin-right: 36px;
+            
             position: relative;
             background-image: url(../images/Image2.jpg);
             background-repeat: no-repeat;
