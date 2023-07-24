@@ -1,17 +1,54 @@
 .s-4 {
+    
     width: 100%;
     background-image: url(../images/leather.jpg);
-    height: 700px;
-    border-radius: 49px;
-    border: 15px solid rgb(110, 10, 10);
+    height: 800px;
+   
+   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    .child {
         width: 700px;
-        height: 430px;
+        height: 480px;
         background-color: $lightgrey;
         border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        img {
+            width: 150px;
+            height: 150px;
+            size: cover;
+        }
+        div {
+            width: 190px;
+            height: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+        h3 {
+            font-size: 30px;
+            font-family: "BPG Phone Sans Italic", sans-serif;
+        }
+        h4 {
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+        h2 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            
+        }
     }
 
 }
