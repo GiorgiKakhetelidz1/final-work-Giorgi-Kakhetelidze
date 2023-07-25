@@ -1,9 +1,13 @@
 header {
     .top {
-        max-width: 1490px;
+        max-width: 1550px;
         width: 100%;
-        height: 180px;
-        margin: 0 auto;
+        height: 150px;
+        border-bottom: 2px solid rgb(212, 212, 199);
+        position: fixed;
+        background-color: white;
+        z-index: 2;
+        margin-bottom: 10px;
         
         display: flex;
         align-items: center;
@@ -11,7 +15,8 @@ header {
         .topchild1 {
             
             height: 100%;
-            width: 750px;
+            max-width: 770px;
+            width: 100%;
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -24,7 +29,7 @@ header {
                 }
             }
             nav {
-                max-width: 564px;
+                max-width: 610px;
                 width: 100%;
                 
                 ul {
@@ -47,7 +52,7 @@ header {
                                 border: none;
                                 color: #274C5B;
                                 font-family: 'Roboto', sans-serif;
-                                font-size: 20px;
+                                font-size: 19px;
                                 font-style: normal;
                                 font-weight: 700;
                                 line-height: normal;
