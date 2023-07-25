@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -64,7 +65,7 @@ a {
 header .top {
   max-width: 1550px;
   width: 100%;
-  height: 150px;
+  height: 100px;
   border-bottom: 2px solid rgb(212, 212, 199);
   position: fixed;
   background-color: white;
@@ -185,35 +186,50 @@ header .topchild2 button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: rgba(39, 76, 91, 0.5333333333);
   position: relative;
   opacity: 20px;
 }
 .s-1 .s-1child {
-  max-width: 530px;
+  max-width: 620px;
   width: 100%;
-  height: 390px;
+  height: 430px;
   position: absolute;
   left: 100px;
-  top: 227px;
+  top: 280px;
+  background-color: rgba(39, 76, 91, 0.2431372549);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 15px;
 }
 .s-1 .s-1child h5 {
-  color: #7EB693;
-  font-family: "BPG Phone Sans Italic", sans-serif;
-  font-size: 40px;
-  width: 600px;
+  color: hwb(197 21% 48%);
+  font-family: "BPG Banner", sans-serif;
+  font-size: 38px;
+  width: 690px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin-bottom: 10px;
+  margin-left: 15px;
 }
 .s-1 .s-1child h1 {
-  color: #ffbf00;
+  color: hwb(56 0% 0%);
   font-family: "BPG Irubaqidze", sans-serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
   margin-bottom: 80px;
+  margin-left: 15px;
 }
 .s-1 .s-1child a button {
   width: 220px;
@@ -232,6 +248,7 @@ header .topchild2 button {
   background-repeat: no-repeat;
   background-position: 162px;
   cursor: pointer;
+  margin-left: 15px;
 }
 .s-1 .s-1child a button:hover {
   color: #F9F8F8;
@@ -259,68 +276,47 @@ header .topchild2 button {
 .s-2 .mydiv1 .card {
   width: 682px;
   height: 367px;
-  overflow: hidden;
+  border-radius: 25px;
   position: relative;
-  background-image: url(../images/Image1.png);
+  background-image: url(../images/ტყავი.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  overflow: hidden;
 }
 .s-2 .mydiv1 .card .myh4 {
   position: absolute;
-  left: 50px;
+  left: 25px;
   color: #F9F8F8;
-  font-family: "Yellowtail", cursive;
-  font-size: 36px;
+  font-family: "ALK Life", sans-serif;
+  font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  top: 115px;
-}
-.s-2 .mydiv1 .card .myh3 {
-  position: absolute;
-  left: 50px;
-  color: #F9F8F8;
-  font-family: "Roboto", sans-serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  width: 250px;
-  top: 172px;
+  top: 210px;
 }
 .s-2 .mydiv2 .card2 {
   width: 682px;
   height: 367px;
   overflow: hidden;
+  border-radius: 25px;
   position: relative;
-  background-image: url(../images/Image2.jpg);
+  background-image: url(../images/crafting.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.s-2 .mydiv2 .card2 h4 {
-  color: #7EB693;
-  font-family: "Yellowtail";
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  position: absolute;
-  left: 50px;
-  top: 115px;
-}
 .s-2 .mydiv2 .card2 h3 {
-  color: #274C5B;
-  font-family: "Roboto";
+  color: #F9F8F8;
+  font-family: "MG Glaho Drunk", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  width: 270px;
+  width: 400px;
   position: absolute;
   left: 50px;
-  top: 172px;
+  top: 210px;
 }
 
 .s-3 {
@@ -362,11 +358,12 @@ header .topchild2 button {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 10px;
 }
-.s-3 .container .about1 h2 {
+.s-3 .container .about1 p {
   color: #274C5B;
   font-family: "Roboto", sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -374,7 +371,7 @@ header .topchild2 button {
   margin-bottom: 50px;
 }
 .s-3 .container .about1 .m {
-  width: 339px;
+  width: 350px;
   height: 81px;
   border-radius: 49px;
   background: #ECECEC;
@@ -405,9 +402,38 @@ header .topchild2 button {
   width: 678px;
   height: 579px;
   overflow: hidden;
-}
-.s-3 .container .about2 img {
+  background-image: url(../images/ტყავი2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   border-radius: 20px;
+  position: relative;
+}
+.s-3 .container .about2 div {
+  width: 200px;
+  height: 100px;
+  background-color: rgba(29, 50, 58, 0.3725490196);
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.s-3 .container .about2 div h2 {
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: rgba(53, 26, 6, 0.856);
+  font-family: "Lilita One", cursive;
 }
 
 .s-4 {
@@ -493,4 +519,102 @@ header .topchild2 button {
 .s-4 .child h1 {
   font-family: "ALK Life", sans-serif;
   font-size: 20px;
+}
+
+.s-5 {
+  padding-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.s-5 h1 {
+  color: #274C5B;
+  text-align: left;
+  font-family: "ALK Sanet", sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+.s-5 .container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.s-5 .container .mycard {
+  width: 400px;
+  height: 483px;
+  border-radius: 30px;
+  background-color: #F9F8F8;
+  margin-bottom: 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.s-5 .container .mycard img {
+  width: 400px;
+  height: 335.23px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.s-5 .container .mycard h4 {
+  color: #274C5B;
+  text-align: left;
+  font-family: "ALK Life", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 10px;
+}
+.s-5 .container .mycard h6 {
+  color: rgb(18, 224, 18);
+  margin-left: 20px;
+}
+.s-5 .container .mycard .mycardchild {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.s-5 .container .mycard .mycardchild h1 {
+  color: #274C5B;
+  font-family: "BPG Banner", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 10px;
+}
+.s-5 .container .mycard .mycardchild .star {
+  margin-right: 10px;
 }/*# sourceMappingURL=global.css.map */
