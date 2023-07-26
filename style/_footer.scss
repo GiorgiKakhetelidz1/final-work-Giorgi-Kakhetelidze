@@ -1,0 +1,107 @@
+.f-1 {
+    width: 100%;
+    height: 492px;
+    margin-top: 30px;
+    background-color: #F9F8F8;
+    .container {
+        @include container;
+        height: 492px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .f-2 {
+            width: 285px;
+            height: 315px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            h1 {
+                color: #274C5B;
+                font-family: "BPG Banner", sans-serif;
+                font-size: 35px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 32px;
+            }
+            h4 {
+                color: #525C60;
+                text-align: right;
+                font-family: "ALK Sanet", sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                margin-bottom: 8px;
+                
+            }
+            a {
+                color: #525C60;
+                font-family: Open Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                margin-bottom: 8px;
+                line-height: 21px;
+                
+            }
+        }
+        .f-3 {
+            width: 543px;
+            height: 246px;
+            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            div {
+                width: 150px;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                 background-color: #525c603c;
+                .fa-solid {
+                    color: $darkblue;
+                    margin-right: 4px;
+                }
+            }
+            h1 {
+                color: #525C60;
+                font-family: "ALK Life", sans-serif;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 600;
+                margin-bottom: 8px;
+                line-height: 21px;
+            }
+            a {   
+                i {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .f-4 {
+            width: 285px;
+            height: 307px;
+            
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-direction: column;
+            a {
+                color: $darkblue;
+                font-family: "BPG Banner", sans-serif;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 21px;
+            }
+
+            
+        }
+    }
+}

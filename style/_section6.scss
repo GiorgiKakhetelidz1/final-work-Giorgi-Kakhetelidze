@@ -1,0 +1,66 @@
+.s-6 {
+    width: 100%;
+    
+    padding-top: 50px;
+    .background {
+      width: 100%;
+      height: 250px;
+      background-image: url(../images/leather.jpg);  
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position:center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 10px solid rgb(195, 185, 185);
+      .mydiv3 {
+        width: 500px;
+        height: 110px;
+        background-color: rgba(179, 83, 31, 0.43);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        h1 {
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            color: white;
+            font-family: "ALK Rounded Mtav Med", sans-serif; 
+        }
+      }
+    } 
+    .container {
+        @include container;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 50px;
+        flex-wrap: wrap;
+        img {
+            width: 700px; 
+            height: 450px;
+            border-radius: 25px;
+        }
+        div { 
+            width: 600px; 
+            height: 450px; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(207, 195, 195, 0.519);
+            border-radius: 25px;
+            p {
+                width: 550px; 
+                font-family: "BPG Irubaqidze", sans-serif;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                color: $darkblue;
+            }
+        }
+    }   
+}

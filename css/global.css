@@ -100,7 +100,7 @@ header .top .topchild1 .logo a i {
   color: #274C5B;
 }
 header .top .topchild1 nav {
-  max-width: 610px;
+  max-width: 650px;
   width: 100%;
 }
 header .top .topchild1 nav ul {
@@ -115,7 +115,7 @@ header .top .topchild1 nav ul {
 header .top .topchild1 nav ul li a {
   display: inline-block;
   color: #274C5B;
-  font-family: "Roboto", sans-serif;
+  font-family: "BPG Banner", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -169,7 +169,7 @@ header .topchild2 button {
   border-radius: 36px;
   border: 1px solid #E0E0E0;
   color: #274C5B;
-  font-family: "Roboto", sans-serif;
+  font-family: "BPG Banner", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -271,6 +271,8 @@ header .topchild2 button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0 auto;
 }
 .s-2 .mydiv1 .card {
@@ -335,15 +337,17 @@ header .topchild2 button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .s-3 .container .about1 {
   width: 671px;
-  height: 624px;
+  height: 660px;
 }
 .s-3 .container .about1 .hello {
   color: #525C60;
-  font-family: "Roboto";
-  font-size: 16px;
+  font-family: "BPG Boxo", sans-serif;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 165.4%;
@@ -353,8 +357,8 @@ header .topchild2 button {
 }
 .s-3 .container .about1 h4 {
   color: #7EB693;
-  font-family: "Yellowtail";
-  font-size: 36px;
+  font-family: "MG Glaho Drunk", sans-serif;
+  font-size: 50px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -362,8 +366,8 @@ header .topchild2 button {
 }
 .s-3 .container .about1 p {
   color: #274C5B;
-  font-family: "Roboto", sans-serif;
-  font-size: 30px;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 33px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -371,7 +375,7 @@ header .topchild2 button {
   margin-bottom: 50px;
 }
 .s-3 .container .about1 .m {
-  width: 350px;
+  width: 400px;
   height: 81px;
   border-radius: 49px;
   background: #ECECEC;
@@ -388,10 +392,10 @@ header .topchild2 button {
 }
 .s-3 .container .about1 .m h5 {
   color: #274C5B;
-  font-family: "Roboto";
-  font-size: 20px;
+  font-family: "ALK Life", sans-serif;
+  font-size: 24px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: normal;
 }
 .s-3 .container .about1 .m i {
@@ -434,6 +438,26 @@ header .topchild2 button {
   line-height: normal;
   color: rgba(53, 26, 6, 0.856);
   font-family: "Lilita One", cursive;
+}
+.s-3 .div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 18px;
+  margin-top: 90px;
+}
+.s-3 .div2 h1 {
+  display: inline-block;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: orange;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
 }
 
 .s-4 {
@@ -616,4 +640,234 @@ header .topchild2 button {
 }
 .s-5 .container .mycard .mycardchild .star {
   margin-right: 10px;
+}
+
+.s-6 {
+  width: 100%;
+  padding-top: 50px;
+}
+.s-6 .background {
+  width: 100%;
+  height: 250px;
+  background-image: url(../images/leather.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 10px solid rgb(195, 185, 185);
+}
+.s-6 .background .mydiv3 {
+  width: 500px;
+  height: 110px;
+  background-color: rgba(179, 83, 31, 0.43);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.s-6 .background .mydiv3 h1 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: white;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+}
+.s-6 .container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.s-6 .container img {
+  width: 700px;
+  height: 450px;
+  border-radius: 25px;
+}
+.s-6 .container div {
+  width: 600px;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(207, 195, 195, 0.519);
+  border-radius: 25px;
+}
+.s-6 .container div p {
+  width: 550px;
+  font-family: "BPG Irubaqidze", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #274C5B;
+}
+
+.f-1 {
+  width: 100%;
+  height: 492px;
+  margin-top: 30px;
+  background-color: #F9F8F8;
+}
+.f-1 .container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  height: 492px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.f-1 .container .f-2 {
+  width: 285px;
+  height: 315px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.f-1 .container .f-2 h1 {
+  color: #274C5B;
+  font-family: "BPG Banner", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+.f-1 .container .f-2 h4 {
+  color: #525C60;
+  text-align: right;
+  font-family: "ALK Sanet", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.f-1 .container .f-2 a {
+  color: #525C60;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 8px;
+  line-height: 21px;
+}
+.f-1 .container .f-3 {
+  width: 543px;
+  height: 246px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.f-1 .container .f-3 div {
+  width: 150px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  background-color: rgba(82, 92, 96, 0.2352941176);
+}
+.f-1 .container .f-3 div .fa-solid {
+  color: #274C5B;
+  margin-right: 4px;
+}
+.f-1 .container .f-3 h1 {
+  color: #525C60;
+  font-family: "ALK Life", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 8px;
+  line-height: 21px;
+}
+.f-1 .container .f-3 a i {
+  margin-bottom: 30px;
+}
+.f-1 .container .f-4 {
+  width: 285px;
+  height: 307px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.f-1 .container .f-4 a {
+  color: #274C5B;
+  font-family: "BPG Banner", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
 }/*# sourceMappingURL=global.css.map */
