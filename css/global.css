@@ -576,7 +576,7 @@ header .topchild2 button {
       flex-wrap: wrap;
 }
 .s-5 .container .mycard {
-  width: 400px;
+  width: 430px;
   height: 500px;
   border-radius: 30px;
   background-color: #F9F8F8;
@@ -594,7 +594,7 @@ header .topchild2 button {
           justify-content: space-between;
 }
 .s-5 .container .mycard img {
-  width: 400px;
+  width: 430px;
   height: 335.23px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -684,6 +684,16 @@ header .topchild2 button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.s-5a .container h1 {
+  color: #274C5B;
+  text-align: left;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 30px;
 }
 .s-5a .container .infowrapper {
   width: 1000px;
