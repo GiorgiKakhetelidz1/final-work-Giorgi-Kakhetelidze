@@ -1,8 +1,6 @@
 .s-5 {
     padding-top: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
     
     h1 {
         color: #274C5B;
@@ -12,6 +10,8 @@
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+        width: 405px;
+        margin: 0 auto;
         margin-bottom: 50px;
     }
     .container {
@@ -22,7 +22,7 @@
         
         .mycard {
             width: 400px;
-            height: 483px;
+            height: 500px;
             border-radius: 30px;
             background-color: #F9F8F8;
             margin-bottom: 20px;
@@ -68,6 +68,8 @@
                 }
                 .star {
                     margin-right: 10px;
+                    width: 150px;
+                    display: flex;
                 }
             }
             
@@ -75,30 +77,30 @@
     }
     a {    
         button {
-            width: 350px;
-            height: 79px;
+            width: 287px;
+            height: 30px;
             padding-right: 40px;
             border: none;
             border-radius: 16px;
             background: rgb(255, 183, 0);
             color: #274C5B;
             font-family: "ALK Life", sans-serif;
-            font-size: 23px;
+            font-size: 20.5px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
             background-image: url(../images/Aerrow.svg);
             background-repeat: no-repeat;
-            background-position: 300px;
+            background-position: 260px;
             cursor: pointer;
-            margin-left: 15px;
+            margin-left: 10px;
         }
         button:hover {
             color: $whyte;
             background: $darkblue;
             background-image: url(../images/Aerrow.svg);
             background-repeat: no-repeat;
-            background-position: 162px;
+            background-position: 260px;
         }
     }   
 }
