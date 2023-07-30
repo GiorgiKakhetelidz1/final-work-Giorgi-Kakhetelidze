@@ -24,7 +24,8 @@
             justify-content: space-around;
             align-items: center;
             background-color: #144a5f19;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            transition-duration: 0.1s;
             img {
                 width: 500px;
                 height: 400px;
@@ -65,5 +66,8 @@
                 }
             }
         }
+        .infowrapper:hover {
+            transform: scale(1.1);
+        } 
     }
 }

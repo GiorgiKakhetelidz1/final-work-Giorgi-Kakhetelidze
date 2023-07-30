@@ -107,6 +107,11 @@ header .top .topchild1 nav {
   max-width: 650px;
   width: 100%;
 }
+@media (max-width: 1324px) {
+  header .top .topchild1 nav nav {
+    display: none;
+  }
+}
 header .top .topchild1 nav ul {
   width: 100%;
   display: -webkit-box;
@@ -124,6 +129,13 @@ header .top .topchild1 nav ul li a {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+header .top .topchild1 nav ul li a:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 header .top .topchild1 nav ul li form select {
   border: none;
@@ -580,7 +592,7 @@ header .topchild2 button {
   height: 500px;
   border-radius: 30px;
   background-color: #F9F8F8;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -592,6 +604,8 @@ header .topchild2 button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
 }
 .s-5 .container .mycard img {
   width: 430px;
@@ -639,6 +653,11 @@ header .topchild2 button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.s-5 .container .mycard:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .s-5 a button {
   width: 287px;
@@ -708,7 +727,9 @@ header .topchild2 button {
       -ms-flex-align: center;
           align-items: center;
   background-color: rgba(20, 74, 95, 0.0980392157);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
 }
 .s-5a .container .infowrapper img {
   width: 500px;
@@ -751,6 +772,11 @@ header .topchild2 button {
 }
 .s-5a .container .infowrapper .info a i {
   margin-top: 10px;
+}
+.s-5a .container .infowrapper:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .s-6 {
@@ -913,12 +939,13 @@ header .topchild2 button {
 }
 .f-1 .container .f-3 {
   width: 543px;
-  height: 246px;
+  height: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -956,7 +983,7 @@ header .topchild2 button {
   line-height: 21px;
 }
 .f-1 .container .f-3 a i {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 .f-1 .container .f-4 {
   width: 285px;

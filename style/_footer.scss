@@ -50,10 +50,9 @@
         }
         .f-3 {
             width: 543px;
-            height: 246px;
-            
+            height: 350px;
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
             flex-direction: column;
             div {
@@ -80,7 +79,7 @@
             }
             a {   
                 i {
-                    margin-bottom: 30px;
+                    margin-bottom: 0px;
                 }
             }
         }
