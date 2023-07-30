@@ -103,14 +103,14 @@ header .top .topchild1 .logo {
 header .top .topchild1 .logo a i {
   color: #274C5B;
 }
+@media (max-width: 1324px) {
+  header .top .topchild1 .logo {
+    margin-left: 30px;
+  }
+}
 header .top .topchild1 nav {
   max-width: 650px;
   width: 100%;
-}
-@media (max-width: 1324px) {
-  header .top .topchild1 nav nav {
-    display: none;
-  }
 }
 header .top .topchild1 nav ul {
   width: 100%;
@@ -147,7 +147,24 @@ header .top .topchild1 nav ul li form select {
   line-height: normal;
   cursor: pointer;
 }
-header .topchild2 {
+header .top .topchild1 .fa-bars {
+  display: none;
+}
+@media (max-width: 1324px) {
+  header .top .topchild1 .fa-bars {
+    display: inline-block;
+    margin-right: 30px;
+  }
+}
+@media (max-width: 1324px) {
+  header .top .topchild1 {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 100%;
+  }
+}
+header .top .topchild2 {
   height: 100%;
   width: 570px;
   display: -webkit-box;
@@ -159,7 +176,7 @@ header .topchild2 {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-header .topchild2 input {
+header .top .topchild2 input {
   max-width: 376px;
   width: 100%;
   height: 66px;
@@ -175,7 +192,7 @@ header .topchild2 input {
   background-repeat: no-repeat;
   background-position: 310px, 0px;
 }
-header .topchild2 button {
+header .top .topchild2 button {
   width: 159px;
   height: 66px;
   padding-left: 50px;
@@ -193,6 +210,16 @@ header .topchild2 button {
   background-image: url(../images/Cart\ Icon.svg);
   background-repeat: no-repeat;
   background-position: 6px, 10px;
+}
+@media (max-width: 1324px) {
+  header .top .topchild2 {
+    display: none;
+  }
+}
+@media (max-width: 1324px) {
+  header .top {
+    max-width: 100%;
+  }
 }
 
 .s-1 {
@@ -277,7 +304,7 @@ header .topchild2 button {
 .s-2 {
   max-width: 1440px;
   width: 100%;
-  height: 500px;
+  padding-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -337,6 +364,17 @@ header .topchild2 button {
   top: 210px;
 }
 
+@media (max-width: 1461px) {
+  .s-2 {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 30px;
+    height: 800px;
+  }
+}
 .s-3 {
   width: 100%;
   padding-top: 120px;
@@ -370,6 +408,12 @@ header .topchild2 button {
   width: 444px;
   margin-left: 50px;
   margin-top: 20px;
+}
+@media (max-width: 1390px) {
+  .s-3 .container .about1 .hello {
+    margin-left: 40px;
+    width: 390px;
+  }
 }
 .s-3 .container .about1 h4 {
   color: #7EB693;
@@ -418,6 +462,21 @@ header .topchild2 button {
   margin-right: 7px;
   margin-left: 27px;
 }
+@media (max-width: 1420px) {
+  .s-3 .container .about1 {
+    width: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 .s-3 .container .about2 {
   width: 678px;
   height: 579px;
@@ -455,6 +514,28 @@ header .topchild2 button {
   color: rgba(53, 26, 6, 0.856);
   font-family: "Lilita One", cursive;
 }
+@media (max-width: 1420px) {
+  .s-3 .container .about2 {
+    margin-top: 30px;
+    width: 550px;
+  }
+}
+@media (max-width: 1431px) {
+  .s-3 .container {
+    width: 95%;
+  }
+}
+@media (max-width: 1420px) {
+  .s-3 .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 .s-3 .div2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -473,6 +554,16 @@ header .topchild2 button {
   line-height: normal;
   color: orange;
   font-family: "ALK Rounded Mtav Med", sans-serif;
+}
+@media (max-width: 1200px) {
+  .s-3 .div2 h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 1008px) {
+  .s-3 .div2 h1 {
+    font-size: 35px;
+  }
 }
 
 .s-4 {

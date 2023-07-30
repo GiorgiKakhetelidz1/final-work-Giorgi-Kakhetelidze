@@ -26,17 +26,19 @@ header {
                 a {
                     i {
                         color: $darkblue;
+                        
                     }
+                }
+            }
+            @media (max-width: 1324px) {
+                .logo {
+                    margin-left: 30px;
                 }
             }
             nav {
                 max-width: 650px;
                 width: 100%;
-                @media (max-width: 1324px) {
-                    nav {
-                        display: none;
-                    }
-                }
+                
                 
                 ul {
                     width: 100%;
@@ -72,8 +74,29 @@ header {
                     }
                 }
             }
-        }   
-    }   .topchild2 {
+            .fa-bars {
+                display: none;
+            }
+            @media (max-width: 1324px) {
+                .fa-bars {
+                    display: inline-block;
+                    margin-right: 30px;
+                }
+            }
+            @media (max-width: 1324px) {
+                nav {
+                    
+                }
+            }
+        } 
+        @media (max-width: 1324px) {
+            .topchild1 {
+                justify-content: space-between;
+                max-width: 100%;
+                
+            }
+        }
+       .topchild2 {
             
             height: 100%;
             width: 570px;
@@ -116,6 +139,19 @@ header {
                 
                 
             }
-            
+       }
+       @media (max-width: 1324px) {
+            .topchild2 {
+                display: none;
+            }
+        }    
+    
+    } 
+    @media (max-width: 1324px) {
+        .top {
+            max-width: 100%;
         }
+    } 
+     
+
 }

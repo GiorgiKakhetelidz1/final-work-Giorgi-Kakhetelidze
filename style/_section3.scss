@@ -26,6 +26,12 @@
                 margin-left: 50px;
                 margin-top: 20px;
             }
+            @media (max-width: 1390px) {
+                .hello {
+                    margin-left: 40px;
+                    width: 390px;
+                }
+            }
             h4 {
                 color: $lightgreen;
                 font-family: "MG Glaho Drunk", sans-serif;
@@ -67,7 +73,17 @@
                     margin-right: 7px;
                     margin-left: 27px;
                     }
-                }
+            }
+            
+        
+        }
+        @media (max-width: 1420px) {
+            .about1 {
+                width: 600px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
         }
         .about2 {
                 
@@ -103,6 +119,24 @@
                     
                     
         }
+        @media (max-width: 1420px) {
+            .about2 {
+                margin-top: 30px;
+                width: 550px;
+            }
+        }
+    }
+    @media (max-width: 1431px) {
+        .container {
+            width: 95%;
+            
+        }
+    }
+    @media (max-width: 1420px) {
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
     }
     .div2 { 
         display: flex;
@@ -119,6 +153,18 @@
             line-height: normal;
             color: orange;
             font-family: "ALK Rounded Mtav Med", sans-serif;               
+        }
+        @media (max-width: 1200px) {
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (max-width: 1008px) {
+            h1 {
+                font-size: 35px;
+            }
         }    
     }
-}   
+    
+} 
+
