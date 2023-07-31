@@ -236,7 +236,7 @@ header .mobile-container {
 }
 header .mobile-container .topnav {
   overflow: hidden;
-  background-color: #b7b1b1;
+  background-color: rgba(117, 111, 111, 0.2392156863);
   position: relative;
   border-bottom: 2px solid rgb(212, 212, 199);
   z-index: 20;
