@@ -32,8 +32,8 @@
                 <div class="topchild1">
                     <div class="logo">
                         <a href="#">
-                            <i class="fa-solid fa-g fa-2xl" ></i>
-                            <i class="fa-solid fa-k fa-2xl" ></i>
+                            <i class="fa-solid fa-g fa-2xl" style="color: #274c5b;"></i>
+                            <i class="fa-solid fa-k fa-2xl" style="color: #274c5b;"></i>
                         </a>    
                     </div>
                     <nav>
@@ -57,13 +57,50 @@
                         </ul>
                     </nav>
                     <i class="fa-solid fa-bars fa-2xl" style="color: #274c5b;"></i>
+                    
                 </div>
                 <div class="topchild2">
                     <input type="text" placeholder="ძიება...">
                     <button>ყიდვა</button>
                 </div>
             </div>
+            <div>  
+                <div class="mobile-container">
+        
+        
+                    <div class="topnav">
+                    <a href="#home" class="active">
+                        <i class="fa-solid fa-g fa-2xl" style="color: #274c5b; margin-right: 4px;"></i>
+                        <i class="fa-solid fa-k fa-2xl" style="color: #274c5b;"></i>
+                    </a>
+                    <div id="myLinks">
+                        <a href="#news">მთავარი</a>
+                        <a href="#contact">შეფასებები</a>
+                        <a href="#about">პროდუქცია</a>
+                        <a href="#about">ჩვენს შესახებ</a>
+                        <a href="#about">კონტაქტი</a>
+                        <div class="topchild2">
+                            <input type="text" placeholder="ძიება...">
+                            <button>ყიდვა</button>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars fa-2xl" style="color: #274c5b;"></i>
+                    </a>
+                    </div>
+            </div>
         </header>
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+            }
+        </script>
+        
         <section id="first" class="s-1">
                 <div class="s-1child">
                     <h5>100%-ით ნატურალური ტყავი</h5>

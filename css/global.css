@@ -101,7 +101,7 @@ header .top .topchild1 .logo {
   display: inline-block;
 }
 header .top .topchild1 .logo a i {
-  color: #274C5B;
+  color: black;
 }
 @media (max-width: 1324px) {
   header .top .topchild1 .logo {
@@ -156,7 +156,7 @@ header .top .topchild1 .fa-bars {
     margin-right: 30px;
   }
 }
-@media (max-width: 905px) {
+@media (max-width: 1324px) {
   header .top .topchild1 nav {
     display: none;
   }
@@ -224,6 +224,112 @@ header .top .topchild2 button {
 @media (max-width: 1324px) {
   header .top {
     max-width: 100%;
+    display: none;
+  }
+}
+header .mobile-container {
+  max-width: 100%;
+  height: 100px;
+  color: white;
+  border-radius: 10px;
+  display: none;
+}
+header .mobile-container .topnav {
+  overflow: hidden;
+  background-color: #b7b1b1;
+  position: relative;
+  border-bottom: 2px solid rgb(212, 212, 199);
+  z-index: 20;
+}
+header .mobile-container .topnav .active {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .mobile-container .topnav #myLinks {
+  display: none;
+}
+header .mobile-container .topnav a {
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "BPG Banner", sans-serif;
+  display: block;
+}
+header .mobile-container .topnav a:hover {
+  background-color: #ffffff;
+  color: rgb(4, 4, 4);
+}
+header .mobile-container .topnav .topchild2 {
+  height: 150px;
+  width: 570px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+header .mobile-container .topnav .topchild2 input {
+  max-width: 376px;
+  width: 100%;
+  height: 66px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 36px;
+  background: #FAFAFA;
+  border: none;
+  border-color: white;
+  padding-left: 20px;
+  font-size: 25px;
+  background-image: url(../images/Search\ Icon.svg);
+  background-repeat: no-repeat;
+  background-position: 310px, 0px;
+  margin-left: 10px;
+}
+header .mobile-container .topnav .topchild2 button {
+  width: 159px;
+  height: 66px;
+  padding-left: 50px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background: white;
+  border-radius: 36px;
+  border: 1px solid #E0E0E0;
+  color: #274C5B;
+  font-family: "BPG Banner", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background-image: url(../images/Cart\ Icon.svg);
+  background-repeat: no-repeat;
+  background-position: 6px, 10px;
+  margin-left: 10px;
+}
+header .mobile-container .topnav .icon {
+  background: rgb(255, 255, 255);
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+}
+@media (max-width: 1324px) {
+  header .mobile-container {
+    display: inline;
   }
 }
 
@@ -316,6 +422,11 @@ header .top .topchild2 button {
   background-repeat: no-repeat;
   background-position: 162px;
 }
+@media (max-width: 1324px) {
+  .s-1 .s-1child {
+    top: 120px;
+  }
+}
 @media (max-width: 833px) {
   .s-1 .s-1child {
     max-width: 550px;
@@ -324,6 +435,11 @@ header .top .topchild2 button {
   }
 }
 
+@media (max-width: 1324px) {
+  .s-1 {
+    height: 600px;
+  }
+}
 @media (max-width: 833px) {
   .s-1 {
     position: none;

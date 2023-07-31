@@ -85,6 +85,12 @@
                 }
             }    
         }
+        @media (max-width: 1324px) {
+            .s-1child {
+                top: 120px;
+            }
+
+        }
         @media (max-width: 833px) {
             .s-1child {
                 max-width: 550px;
@@ -96,6 +102,11 @@
             
         } 
 
+}
+@media (max-width: 1324px) {
+    .s-1 {
+        height: 600px;
+    }
 }
 @media (max-width: 833px) {
     .s-1 {

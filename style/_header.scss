@@ -25,7 +25,7 @@ header {
                 display: inline-block;
                 a {
                     i {
-                        color: $darkblue;
+                        color: black;
                         
                     }
                 }
@@ -83,7 +83,7 @@ header {
                     margin-right: 30px;
                 }
             }
-            @media (max-width: 905px) {
+            @media (max-width: 1324px) {
                 nav {
                     display: none;
                 }
@@ -150,8 +150,117 @@ header {
     @media (max-width: 1324px) {
         .top {
             max-width: 100%;
+            display: none;
         }
-    } 
-     
+    }
+   
+          
+        .mobile-container {
+            max-width: 100%;
+            height: 100px;
+            color: white;
+            border-radius: 10px;
+            display: none;
+            
+            
+            .topnav {
+                overflow: hidden;
+                background-color: #b7b1b1;
+                position: relative;
+                border-bottom: 2px solid rgb(212, 212, 199);
+                z-index: 20;
+                
+                
+                .active {
+                    background-color: #ffffff;
+                    color: rgb(0, 0, 0);
+                    height: 100px;
+                    display: flex;
+                    align-items: center;
+                    
+                }
+                #myLinks {
+                    display: none;
+                }
+                a {
+                    color: rgb(0, 0, 0);
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    font-size: 17px;
+                    font-family: "BPG Banner", sans-serif;
+                    display: block;
+                }
+                a:hover {
+                    background-color: #ffffff;
+                    color: rgb(4, 4, 4);
+                }
+                .topchild2 {
+                
+                    height: 150px;
+                    width: 570px;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    input {
+                        max-width: 376px;
+                        width: 100%;
+                        height: 66px;
+                        flex-shrink: 0;
+                        border-radius: 36px;
+                        background: #FAFAFA;
+                        border: none;
+                        border-color: white;
+                        padding-left: 20px;
+                        font-size: 25px;
+                        background-image: url(../images/Search\ Icon.svg);
+                        background-repeat: no-repeat;
+                        background-position: 310px, 0px;
+                        margin-left: 10px;
+                    }
+                    button {
+                        width: 159px;
+                        height: 66px;
+                        padding-left: 50px;
+                        flex-shrink: 0;
+                        background: white;
+                        border-radius: 36px;
+                        border: 1px solid #E0E0E0;
+                        color: #274C5B;
+                        font-family: "BPG Banner", sans-serif;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        background-image: url(../images/Cart\ Icon.svg);
+                        background-repeat: no-repeat;
+                        background-position: 6px, 10px;
+                        margin-left: 10px;
+                        
+                        
+                        
+                    }
+                }
+                .icon {
+                    background: rgb(255, 255, 255);
+                    display: block;
+                    position: absolute;
+                    right: 10px;
+                    top: 25px;
 
-}
+                }
+            }
+            
+        }
+        @media (max-width: 1324px) {
+            .mobile-container {
+                display: inline;
+            }
+        }
+
+
+
+
+}    
+ 
+
