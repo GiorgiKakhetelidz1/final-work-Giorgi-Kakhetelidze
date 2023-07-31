@@ -35,6 +35,11 @@
                 margin-left: 15px;
                 
             }
+            @media (max-width: 833px) {
+                h5 {
+                    font-size: 32px;
+                }
+            } 
             h1 {
                 color: hwb(56 0% 0%);
                 font-family: "BPG Irubaqidze", sans-serif;
@@ -45,6 +50,12 @@
                 margin-bottom: 80px;
                 margin-left: 15px;
             }
+            @media (max-width: 833px) {
+                h1 {
+                    font-size: 45px;
+                    margin-bottom: 50px;
+                }
+            } 
             a {    
                 button {
                     width: 220px;
@@ -74,5 +85,23 @@
                 }
             }    
         }
+        @media (max-width: 833px) {
+            .s-1child {
+                max-width: 550px;
+                height: 360px;
+                left: 60px;
+                
+                
+            }
+            
+        } 
 
+}
+@media (max-width: 833px) {
+    .s-1 {
+        position: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+} 

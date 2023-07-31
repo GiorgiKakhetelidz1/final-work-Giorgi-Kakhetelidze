@@ -156,6 +156,11 @@ header .top .topchild1 .fa-bars {
     margin-right: 30px;
   }
 }
+@media (max-width: 905px) {
+  header .top .topchild1 nav {
+    display: none;
+  }
+}
 @media (max-width: 1324px) {
   header .top .topchild1 {
     -webkit-box-pack: justify;
@@ -264,6 +269,11 @@ header .top .topchild2 button {
   margin-bottom: 10px;
   margin-left: 15px;
 }
+@media (max-width: 833px) {
+  .s-1 .s-1child h5 {
+    font-size: 32px;
+  }
+}
 .s-1 .s-1child h1 {
   color: hwb(56 0% 0%);
   font-family: "BPG Irubaqidze", sans-serif;
@@ -273,6 +283,12 @@ header .top .topchild2 button {
   line-height: normal;
   margin-bottom: 80px;
   margin-left: 15px;
+}
+@media (max-width: 833px) {
+  .s-1 .s-1child h1 {
+    font-size: 45px;
+    margin-bottom: 50px;
+  }
 }
 .s-1 .s-1child a button {
   width: 220px;
@@ -300,7 +316,28 @@ header .top .topchild2 button {
   background-repeat: no-repeat;
   background-position: 162px;
 }
+@media (max-width: 833px) {
+  .s-1 .s-1child {
+    max-width: 550px;
+    height: 360px;
+    left: 60px;
+  }
+}
 
+@media (max-width: 833px) {
+  .s-1 {
+    position: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 .s-2 {
   max-width: 1440px;
   width: 100%;
@@ -340,6 +377,11 @@ header .top .topchild2 button {
   line-height: normal;
   top: 210px;
 }
+@media (max-width: 821px) {
+  .s-2 .mydiv1 .card {
+    width: 500px;
+  }
+}
 .s-2 .mydiv2 .card2 {
   width: 682px;
   height: 367px;
@@ -362,6 +404,11 @@ header .top .topchild2 button {
   position: absolute;
   left: 50px;
   top: 210px;
+}
+@media (max-width: 821px) {
+  .s-2 .mydiv2 .card2 {
+    width: 500px;
+  }
 }
 
 @media (max-width: 1461px) {
@@ -536,6 +583,12 @@ header .top .topchild2 button {
             align-items: center;
   }
 }
+@media (max-width: 850px) {
+  .s-3 .container {
+    width: 100%;
+    margin: 0 0;
+  }
+}
 .s-3 .div2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -633,6 +686,11 @@ header .top .topchild2 button {
   line-height: normal;
   font-family: "ALK Sanet", sans-serif;
 }
+@media (max-width: 1000px) {
+  .s-4 .child h4 {
+    font-size: 25px;
+  }
+}
 .s-4 .child h2 {
   font-size: 20px;
   font-style: normal;
@@ -642,13 +700,24 @@ header .top .topchild2 button {
 .s-4 .child p {
   font-family: "BPG Irubaqidze", sans-serif;
   line-height: 25px;
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
   font-weight: 700;
   font-size: 18px;
+}
+@media (max-width: 1000px) {
+  .s-4 .child p {
+    width: 500px;
+  }
 }
 .s-4 .child h1 {
   font-family: "ALK Life", sans-serif;
   font-size: 20px;
+}
+@media (max-width: 1000px) {
+  .s-4 .child {
+    width: 600px;
+  }
 }
 
 .s-5 {
@@ -750,6 +819,17 @@ header .top .topchild2 button {
       -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
+@media (max-width: 930px) {
+  .s-5 .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 .s-5 a button {
   width: 287px;
   height: 30px;
@@ -804,6 +884,21 @@ header .top .topchild2 button {
   font-weight: 600;
   line-height: normal;
   margin-bottom: 30px;
+}
+@media (max-width: 1180px) {
+  .s-5a .container h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 1026px) {
+  .s-5a .container h1 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 904px) {
+  .s-5a .container h1 {
+    font-size: 35px;
+  }
 }
 .s-5a .container .infowrapper {
   width: 1000px;
@@ -863,6 +958,21 @@ header .top .topchild2 button {
 }
 .s-5a .container .infowrapper .info a i {
   margin-top: 10px;
+}
+@media (max-width: 1035px) {
+  .s-5a .container .infowrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 900px;
+    width: 600px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 .s-5a .container .infowrapper:hover {
   -webkit-transform: scale(1.1);
@@ -931,12 +1041,21 @@ header .top .topchild2 button {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.s-6 .container img {
-  width: 700px;
+.s-6 .container .img {
+  max-width: 700px;
+  width: 100%;
   height: 450px;
   border-radius: 25px;
+  background-image: url(../images/crafting2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.s-6 .container div {
+@media (max-width: 806px) {
+  .s-6 .container .img {
+    display: none;
+  }
+}
+.s-6 .container .profile {
   width: 600px;
   height: 450px;
   display: -webkit-box;
@@ -951,7 +1070,7 @@ header .top .topchild2 button {
   background-color: rgba(207, 195, 195, 0.519);
   border-radius: 25px;
 }
-.s-6 .container div p {
+.s-6 .container .profile p {
   width: 550px;
   font-family: "BPG Irubaqidze", sans-serif;
   font-size: 28px;
@@ -959,6 +1078,25 @@ header .top .topchild2 button {
   font-weight: 600;
   line-height: normal;
   color: #274C5B;
+}
+@media (max-width: 1354px) {
+  .s-6 .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 1200px;
+  }
+}
+@media (max-width: 806px) {
+  .s-6 .container {
+    height: 700px;
+  }
 }
 
 .f-1 {
@@ -1029,7 +1167,7 @@ header .top .topchild2 button {
   line-height: 21px;
 }
 .f-1 .container .f-3 {
-  width: 543px;
+  width: 430px;
   height: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1077,7 +1215,7 @@ header .top .topchild2 button {
   margin-bottom: 0px;
 }
 .f-1 .container .f-4 {
-  width: 285px;
+  width: 200px;
   height: 307px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1099,4 +1237,19 @@ header .top .topchild2 button {
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
+}
+@media (max-width: 995px) {
+  .f-1 .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 1200px;
+  }
+}
+
+@media (max-width: 995px) {
+  .f-1 {
+    height: 1200px;
+  }
 }/*# sourceMappingURL=global.css.map */

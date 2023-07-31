@@ -35,7 +35,12 @@
                 
             }
            
-        }    
+        } 
+        @media (max-width: 821px) {
+            .card {
+                width: 500px;
+            }
+        }  
     }   
     .mydiv2 {
         .card2 {
@@ -63,6 +68,11 @@
                 
             }
         }
+        @media (max-width: 821px) {
+            .card2 {
+                width: 500px;
+            }
+        } 
     }
     
 

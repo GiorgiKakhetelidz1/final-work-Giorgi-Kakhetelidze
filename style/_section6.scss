@@ -39,12 +39,22 @@
         align-items: center;
         padding-top: 50px;
         flex-wrap: wrap;
-        img {
-            width: 700px; 
+        .img {
+            max-width: 700px;
+            width: 100%; 
             height: 450px;
             border-radius: 25px;
+            background-image: url(../images/crafting2.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
         }
-        div { 
+        @media (max-width: 806px) {
+            .img {
+                display: none;
+            }
+        }
+        
+        .profile { 
             width: 600px; 
             height: 450px; 
             display: flex;
@@ -62,5 +72,18 @@
                 color: $darkblue;
             }
         }
-    }   
+    }
+    @media (max-width: 1354px) {
+        .container {
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            height: 1200px;
+        }
+    } 
+    @media (max-width: 806px) {
+        .container {
+            height: 700px;
+        }
+    }  
 }
