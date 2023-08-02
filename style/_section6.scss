@@ -31,6 +31,11 @@
             font-family: "ALK Rounded Mtav Med", sans-serif; 
         }
       }
+      @media (max-width: 550px) {
+        .mydiv3 {
+            width: 415px;
+        }
+    } 
     } 
     .container {
         @include container;
@@ -71,7 +76,41 @@
                 line-height: normal;
                 color: $darkblue;
             }
+            @media (max-width: 687px) {
+                p {
+                    width: 500px;
+                }
+            }
+            @media (max-width: 596px) {
+                p {
+                    width: 400px;
+                    font-size: 24px;
+                }
+            } 
+            @media (max-width: 465px) {
+                p {
+                    font-size: 22px;
+                    width: 370px;
+                }
+            }
         }
+        @media (max-width: 687px) {
+            .profile {
+                width: 520px;
+            }
+        }
+        @media (max-width: 596px) {
+            .profile {
+                width: 450px;
+                height: 400px;
+            }
+        }
+        @media (max-width: 465px) {
+            .profile {
+                width: 400px;
+                height: 430px;
+            }
+        } 
     }
     @media (max-width: 1354px) {
         .container {
@@ -86,4 +125,9 @@
             height: 700px;
         }
     }  
+}
+@media (max-width: 596px) {
+    .s-6 {
+        height: 900px;
+    }
 }

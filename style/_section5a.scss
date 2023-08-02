@@ -30,6 +30,22 @@
                 font-size: 35px;
             }
         }
+        @media (max-width: 687px) {
+            h1 {
+                font-size: 25px;
+            }
+        }
+        @media (max-width: 607px) {
+            h1 {
+                font-size: 24px;
+            }
+        }
+        @media (max-width: 520px) {
+            h1 {
+                font-size: 20px;
+            }
+        }
+
 
         .infowrapper {
             width: 1000px;
@@ -47,6 +63,23 @@
                 border-radius: 20px;
                 size: cover;
             }
+            @media (max-width: 687px) {
+                img {
+                    width: 460px;
+                }
+            }
+            @media (max-width: 550px) {
+                img {
+                    width: 400px;
+                    height: 290px;
+                }
+            }
+            @media (max-width: 440px) {
+                img {
+                   width: 295px;
+                   height: 220px;
+                }
+            } 
             .info {
                 width: 400px;
                 height: 350px;
@@ -65,6 +98,11 @@
                     line-height: normal;
                     
                 }
+                @media (max-width: 440px) {
+                    h1 {
+                       margin-bottom: 0px;
+                    }
+                }
                 h4 {
                     color: #274C5B;
                     font-family: "BPG Banner", sans-serif;
@@ -80,6 +118,11 @@
                     }
                 }
             }
+            @media (max-width: 550px) {
+                .info{
+                   width: 290px;
+                }
+            }
         }
         @media (max-width: 1035px) {
             .infowrapper {
@@ -90,8 +133,30 @@
                 justify-content: space-around;
             }
         }
+        @media (max-width: 687px) {
+            .infowrapper {
+                width: 520px;
+            }
+        }
+        @media (max-width: 550px) {
+            .infowrapper {
+                width: 420px;
+                height: 680px;
+            }
+        } 
+        @media (max-width: 440px) {
+            .infowrapper{
+               width: 350px;
+            }
+        }
+
         .infowrapper:hover {
             transform: scale(1.1);
         } 
+        @media (max-width: 687px) {
+            .infowrapper:hover {
+                transform: scale(1);
+            }
+        }
     }
 }

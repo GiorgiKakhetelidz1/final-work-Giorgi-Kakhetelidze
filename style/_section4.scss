@@ -48,6 +48,18 @@
                 font-size: 25px;
             }
         }
+        @media (max-width: 657px) {
+            h4 {
+                
+                font-size: 20px;
+            }
+        }
+        @media (max-width: 440px) {
+            h4 {
+               font-size: 17px;
+            }
+        }
+
         h2 {
             font-size: 20px;
             font-style: normal;
@@ -68,6 +80,22 @@
                 width: 500px;
             }
         }
+        @media (max-width: 657px) {
+            p {
+                width: 470px;
+            }
+        }
+        @media (max-width: 550px) {
+            p {
+                width: 380px;
+            }
+        } 
+        @media (max-width: 440px) {
+            p{
+               width: 350px;
+            }
+        }
+
         h1 {
             font-family: "ALK Life", sans-serif;
             font-size: 20px; 
@@ -78,5 +106,22 @@
             width: 600px;
         }
     }
+    @media (max-width: 657px) {
+        .child {
+            width: 510px;
+        }
+    }
+    @media (max-width: 550px) {
+        .child {
+            width: 420px;
+        }
+    } 
+    @media (max-width: 440px) {
+        .child{
+           width: 370px;
+           height: 550px;
+        }
+    }
+
 
 }

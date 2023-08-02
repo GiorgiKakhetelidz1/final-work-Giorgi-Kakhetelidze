@@ -37,6 +37,12 @@
                 height: 335.23px;
                 flex-shrink: 0;
             }
+            @media (max-width: 460px) {
+                img {
+                    width: 360px;
+                    height: 300px;
+                }
+            }
             
             h4 {
                 color: #274C5B;
@@ -75,10 +81,20 @@
                 }
             }
             
+        }
+        @media (max-width: 460px) {
+            .mycard {
+                width: 350px;
+            }
         } 
         .mycard:hover {
             transform: scale(1.1); 
-        }  
+        } 
+        @media (max-width: 537px) {
+            .mycard:hover {
+                transform: scale(1);
+            }
+        } 
     }
     @media (max-width: 930px) {
         .container {

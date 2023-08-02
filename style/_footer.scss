@@ -82,6 +82,17 @@
                     margin-bottom: 0px;
                 }
             }
+            a {
+                img {
+                    width: 300px;
+
+                }
+            }
+        }
+        @media (max-width: 440px) {
+            .f-3{
+               width: 400px;
+            }
         }
         .f-4 {
             width: 200px;

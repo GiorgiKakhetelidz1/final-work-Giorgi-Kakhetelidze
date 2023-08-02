@@ -27,7 +27,8 @@
                 color: hwb(197 21% 48%);;
                 font-family: "BPG Banner", sans-serif;
                 font-size: 38px;
-                width: 690px;
+                max-width: 500px;
+                width: 100%;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
@@ -40,6 +41,25 @@
                     font-size: 32px;
                 }
             } 
+            @media (max-width: 657px) {
+                h5 {
+                    width: 440px;
+                    font-size: 28px;
+                }
+            }
+            @media (max-width: 565px) {
+                h5 {
+                    width: 380px;
+                    font-size: 24px;
+                }
+            } 
+            @media (max-width: 449px) {
+                h5 {
+                    font-size: 22px;
+
+                }
+            }
+    
             h1 {
                 color: hwb(56 0% 0%);
                 font-family: "BPG Irubaqidze", sans-serif;
@@ -56,6 +76,25 @@
                     margin-bottom: 50px;
                 }
             } 
+            @media (max-width: 657px) {
+                h1 {
+                    width: 480px;
+                    font-size: 35px;
+                }
+            }
+            @media (max-width: 565px) {
+                h1 {
+                    width: 380px;
+                    font-size: 30px;
+                }
+            } 
+            @media (max-width: 449px) {
+                h1 {
+                    font-size: 27px;
+                    width: 340px;
+                }
+            }
+    
             a {    
                 button {
                     width: 220px;
@@ -100,7 +139,35 @@
                 
             }
             
+        }
+        @media (max-width: 657px) {
+            .s-1child {
+                width: 500px;
+                height: 280px;
+            }
+        }
+        
+        @media (max-width: 572px) {
+            .s-1child {
+                width: 460px;
+            }
+        }
+        @media (max-width: 558px) {
+            .s-1child {
+                width: 400px;
+            }
         } 
+        @media (max-width: 479px) {
+            .s-1child {
+                left: 50px;
+            }
+        }
+        @media (max-width: 449px) {
+            .s-1child {
+                left: 25px;
+                width: 370px;
+            }
+        }
 
 }
 @media (max-width: 1324px) {

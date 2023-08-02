@@ -34,13 +34,33 @@
                 top: 210px;
                 
             }
+            @media (max-width: 520px) {
+                .myh4 {
+                    left: 15px;
+                }
+            }
            
         } 
         @media (max-width: 821px) {
             .card {
                 width: 500px;
             }
-        }  
+        } 
+        @media (max-width: 550px) {
+            .card {
+                width: 470px;
+            }
+        }
+        @media (max-width: 520px) {
+            .card {
+                width: 400px;
+            }
+        } 
+        @media (max-width: 440px) {
+            .card{
+               width: 350px;
+            }
+        }
     }   
     .mydiv2 {
         .card2 {
@@ -67,12 +87,32 @@
                 top: 210px;
                 
             }
+            @media (max-width: 520px) {
+                h3{
+                    left: 15px;
+                }
+            }
         }
         @media (max-width: 821px) {
             .card2 {
                 width: 500px;
             }
         } 
+        @media (max-width: 550px) {
+            .card2 {
+                width: 470px;
+            }
+        } 
+        @media (max-width: 520px) {
+            .card2 {
+                width: 400px;
+            }
+        } 
+        @media (max-width: 440px) {
+            .card2 {
+               width: 350px;
+            }
+        }
     }
     
 
