@@ -269,7 +269,7 @@ header .mobile-container .topnav a:hover {
 }
 header .mobile-container .topnav .topchild2 {
   height: 150px;
-  width: 570px;
+  width: 100% px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -396,6 +396,13 @@ header .mobile-container .topnav .icon {
 @media (max-width: 449px) {
   .s-1 .s-1child h5 {
     font-size: 22px;
+    width: 350px;
+  }
+}
+@media (max-width: 425px) {
+  .s-1 .s-1child h5 {
+    width: 280px;
+    font-size: 18px;
   }
 }
 .s-1 .s-1child h1 {
@@ -422,14 +429,14 @@ header .mobile-container .topnav .icon {
 }
 @media (max-width: 565px) {
   .s-1 .s-1child h1 {
-    width: 380px;
+    width: 370px;
     font-size: 30px;
   }
 }
-@media (max-width: 449px) {
+@media (max-width: 425px) {
   .s-1 .s-1child h1 {
     font-size: 27px;
-    width: 340px;
+    width: 285px;
   }
 }
 .s-1 .s-1child a button {
@@ -495,6 +502,12 @@ header .mobile-container .topnav .icon {
   .s-1 .s-1child {
     left: 25px;
     width: 370px;
+  }
+}
+@media (max-width: 425px) {
+  .s-1 .s-1child {
+    width: 310px;
+    left: 45px;
   }
 }
 
@@ -811,7 +824,8 @@ header .mobile-container .topnav .icon {
   position: relative;
 }
 .s-3 .container .about2 div {
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   height: 100px;
   background-color: rgba(29, 50, 58, 0.3725490196);
   position: absolute;
@@ -836,6 +850,12 @@ header .mobile-container .topnav .icon {
   color: rgba(53, 26, 6, 0.856);
   font-family: "Lilita One", cursive;
 }
+@media (max-width: 465px) {
+  .s-3 .container .about2 div {
+    max-width: 300px;
+    left: 0px;
+  }
+}
 @media (max-width: 1420px) {
   .s-3 .container .about2 {
     margin-top: 30px;
@@ -850,6 +870,12 @@ header .mobile-container .topnav .icon {
 @media (max-width: 480px) {
   .s-3 .container .about2 {
     width: 410px;
+  }
+}
+@media (max-width: 465px) {
+  .s-3 .container .about2 {
+    width: 300px;
+    height: 400px;
   }
 }
 @media (max-width: 1431px) {
@@ -1066,6 +1092,16 @@ header .mobile-container .topnav .icon {
 
 .s-5 {
   padding-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .s-5 h1 {
   color: #274C5B;
@@ -1075,9 +1111,13 @@ header .mobile-container .topnav .icon {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  width: 405px;
-  margin: 0 auto;
   margin-bottom: 50px;
+  display: inline;
+}
+@media (max-width: 425px) {
+  .s-5 h1 {
+    font-size: 50px;
+  }
 }
 .s-5 .container {
   max-width: 1400px;
@@ -1452,9 +1492,20 @@ header .mobile-container .topnav .icon {
   color: white;
   font-family: "ALK Rounded Mtav Med", sans-serif;
 }
+@media (max-width: 453px) {
+  .s-6 .background .mydiv3 h1 {
+    font-size: 35px;
+  }
+}
 @media (max-width: 550px) {
   .s-6 .background .mydiv3 {
     width: 415px;
+  }
+}
+@media (max-width: 453px) {
+  .s-6 .background .mydiv3 {
+    width: 250px;
+    height: 100px;
   }
 }
 .s-6 .container {
@@ -1528,6 +1579,12 @@ header .mobile-container .topnav .icon {
     width: 370px;
   }
 }
+@media (max-width: 435px) {
+  .s-6 .container .profile p {
+    width: 250px;
+    font-size: 18px;
+  }
+}
 @media (max-width: 687px) {
   .s-6 .container .profile {
     width: 520px;
@@ -1543,6 +1600,11 @@ header .mobile-container .topnav .icon {
   .s-6 .container .profile {
     width: 400px;
     height: 430px;
+  }
+}
+@media (max-width: 435px) {
+  .s-6 .container .profile {
+    width: 300px;
   }
 }
 @media (max-width: 1354px) {

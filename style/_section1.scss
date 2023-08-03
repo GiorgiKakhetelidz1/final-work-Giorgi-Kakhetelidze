@@ -56,7 +56,14 @@
             @media (max-width: 449px) {
                 h5 {
                     font-size: 22px;
+                    width: 350px;
 
+                }
+            }
+            @media (max-width: 425px) {
+                h5 {
+                    width: 280px;
+                    font-size: 18px;
                 }
             }
     
@@ -84,14 +91,14 @@
             }
             @media (max-width: 565px) {
                 h1 {
-                    width: 380px;
+                    width: 370px;
                     font-size: 30px;
                 }
             } 
-            @media (max-width: 449px) {
+            @media (max-width: 425px) {
                 h1 {
                     font-size: 27px;
-                    width: 340px;
+                    width: 285px;
                 }
             }
     
@@ -166,6 +173,12 @@
             .s-1child {
                 left: 25px;
                 width: 370px;
+            }
+        }
+        @media (max-width: 425px) {
+            .s-1child {
+                width: 310px;
+                left: 45px;
             }
         }
 

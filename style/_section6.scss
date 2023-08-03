@@ -30,12 +30,23 @@
             color: white;
             font-family: "ALK Rounded Mtav Med", sans-serif; 
         }
-      }
-      @media (max-width: 550px) {
+        @media (max-width: 453px) {
+            h1 {
+               font-size: 35px;
+            }
+        }
+    }
+    @media (max-width: 550px) {
         .mydiv3 {
             width: 415px;
         }
-    } 
+    }
+    @media (max-width: 453px) {
+        .mydiv3 {
+            width: 250px;
+            height: 100px;
+        }
+    }
     } 
     .container {
         @include container;
@@ -93,6 +104,12 @@
                     width: 370px;
                 }
             }
+            @media (max-width: 435px) {
+                p {
+                    width: 250px;
+                    font-size: 18px;
+                }
+            }
         }
         @media (max-width: 687px) {
             .profile {
@@ -111,6 +128,12 @@
                 height: 430px;
             }
         } 
+        @media (max-width: 435px) {
+            .profile {
+                width: 300px;
+                
+            }
+        }
     }
     @media (max-width: 1354px) {
         .container {
