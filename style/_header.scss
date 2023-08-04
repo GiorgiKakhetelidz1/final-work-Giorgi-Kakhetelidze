@@ -215,8 +215,13 @@ header {
                         font-size: 25px;
                         background-image: url(../images/Search\ Icon.svg);
                         background-repeat: no-repeat;
-                        background-position: 310px, 0px;
+                        background-position: 285px, 0px;
                         margin-left: 10px;
+                    }
+                    @media (max-width: 406px) {
+                        input {
+                            max-width: 350px;
+                        }
                     }
                     button {
                         width: 159px;

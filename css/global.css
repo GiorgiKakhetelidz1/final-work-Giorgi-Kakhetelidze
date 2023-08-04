@@ -297,8 +297,13 @@ header .mobile-container .topnav .topchild2 input {
   font-size: 25px;
   background-image: url(../images/Search\ Icon.svg);
   background-repeat: no-repeat;
-  background-position: 310px, 0px;
+  background-position: 285px, 0px;
   margin-left: 10px;
+}
+@media (max-width: 406px) {
+  header .mobile-container .topnav .topchild2 input {
+    max-width: 350px;
+  }
 }
 header .mobile-container .topnav .topchild2 button {
   width: 159px;
@@ -508,6 +513,11 @@ header .mobile-container .topnav .icon {
   .s-1 .s-1child {
     width: 310px;
     left: 45px;
+  }
+}
+@media (max-width: 380px) {
+  .s-1 .s-1child {
+    left: 30px;
   }
 }
 
@@ -1167,9 +1177,15 @@ header .mobile-container .topnav .icon {
 @media (max-width: 410px) {
   .s-4 .child {
     width: 320px;
+    height: 600px;
   }
 }
 
+@media (max-width: 410px) {
+  .s-4 {
+    height: 1300px;
+  }
+}
 .s-5 {
   padding-top: 70px;
   display: -webkit-box;

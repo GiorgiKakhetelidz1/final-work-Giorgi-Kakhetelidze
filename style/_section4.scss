@@ -136,8 +136,14 @@
     @media (max-width: 410px) {
         .child {
             width: 320px;
+            height: 600px;
         }
     }
 
 
+}
+@media (max-width: 410px) {
+    .s-4 {
+        height: 1300px;
+    }
 }

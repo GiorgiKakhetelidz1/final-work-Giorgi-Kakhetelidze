@@ -181,6 +181,11 @@
                 left: 45px;
             }
         }
+        @media (max-width: 380px) {
+            .s-1child {
+                left: 30px;
+            }
+        }
 
 }
 @media (max-width: 1324px) {
