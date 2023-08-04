@@ -579,6 +579,11 @@ header .mobile-container .topnav .icon {
     font-size: 30px;
   }
 }
+@media (max-width: 384px) {
+  .s-2 .mydiv1 .card .myh4 {
+    top: 150px;
+  }
+}
 @media (max-width: 821px) {
   .s-2 .mydiv1 .card {
     width: 500px;
@@ -597,6 +602,11 @@ header .mobile-container .topnav .icon {
 @media (max-width: 440px) {
   .s-2 .mydiv1 .card {
     width: 350px;
+  }
+}
+@media (max-width: 384px) {
+  .s-2 .mydiv1 .card {
+    width: 310px;
   }
 }
 .s-2 .mydiv2 .card2 {
@@ -633,6 +643,12 @@ header .mobile-container .topnav .icon {
     width: 330px;
   }
 }
+@media (max-width: 384px) {
+  .s-2 .mydiv2 .card2 h3 {
+    width: 300px;
+    font-size: 28px;
+  }
+}
 @media (max-width: 821px) {
   .s-2 .mydiv2 .card2 {
     width: 500px;
@@ -651,6 +667,11 @@ header .mobile-container .topnav .icon {
 @media (max-width: 440px) {
   .s-2 .mydiv2 .card2 {
     width: 350px;
+  }
+}
+@media (max-width: 384px) {
+  .s-2 .mydiv2 .card2 {
+    width: 310px;
   }
 }
 
@@ -717,6 +738,12 @@ header .mobile-container .topnav .icon {
     font-size: 17px;
   }
 }
+@media (max-width: 390px) {
+  .s-3 .container .about1 .hello {
+    width: 310px;
+    font-size: 15px;
+  }
+}
 .s-3 .container .about1 h4 {
   color: #7EB693;
   font-family: "MG Glaho Drunk", sans-serif;
@@ -744,6 +771,12 @@ header .mobile-container .topnav .icon {
     font-size: 30px;
   }
 }
+@media (max-width: 390px) {
+  .s-3 .container .about1 h4 {
+    font-size: 27px;
+    width: 320px;
+  }
+}
 .s-3 .container .about1 p {
   color: #274C5B;
   font-family: "ALK Rounded Mtav Med", sans-serif;
@@ -769,6 +802,11 @@ header .mobile-container .topnav .icon {
 @media (max-width: 440px) {
   .s-3 .container .about1 p {
     width: 360px;
+  }
+}
+@media (max-width: 390px) {
+  .s-3 .container .about1 p {
+    width: 310px;
   }
 }
 .s-3 .container .about1 .m {
@@ -800,6 +838,11 @@ header .mobile-container .topnav .icon {
     font-size: 20px;
   }
 }
+@media (max-width: 390px) {
+  .s-3 .container .about1 .m h5 {
+    font-size: 17px;
+  }
+}
 .s-3 .container .about1 .m i {
   margin-right: 7px;
   margin-left: 27px;
@@ -807,6 +850,11 @@ header .mobile-container .topnav .icon {
 @media (max-width: 440px) {
   .s-3 .container .about1 .m {
     width: 350px;
+  }
+}
+@media (max-width: 390px) {
+  .s-3 .container .about1 .m {
+    width: 310px;
   }
 }
 @media (max-width: 1420px) {
@@ -958,6 +1006,12 @@ header .mobile-container .topnav .icon {
     width: 374px;
   }
 }
+@media (max-width: 400px) {
+  .s-3 .div2 h1 {
+    width: 320px;
+    font-size: 17px;
+  }
+}
 
 .s-4 {
   width: 100%;
@@ -1041,6 +1095,11 @@ header .mobile-container .topnav .icon {
     font-size: 17px;
   }
 }
+@media (max-width: 410px) {
+  .s-4 .child h4 {
+    font-size: 14px;
+  }
+}
 .s-4 .child h2 {
   font-size: 20px;
   font-style: normal;
@@ -1075,6 +1134,11 @@ header .mobile-container .topnav .icon {
     width: 350px;
   }
 }
+@media (max-width: 410px) {
+  .s-4 .child p {
+    width: 290px;
+  }
+}
 .s-4 .child h1 {
   font-family: "ALK Life", sans-serif;
   font-size: 20px;
@@ -1098,6 +1162,11 @@ header .mobile-container .topnav .icon {
   .s-4 .child {
     width: 370px;
     height: 550px;
+  }
+}
+@media (max-width: 410px) {
+  .s-4 .child {
+    width: 320px;
   }
 }
 
@@ -1326,6 +1395,11 @@ header .mobile-container .topnav .icon {
 @media (max-width: 520px) {
   .s-5a .container h1 {
     font-size: 20px;
+  }
+}
+@media (max-width: 390px) {
+  .s-5a .container h1 {
+    font-size: 17px;
   }
 }
 .s-5a .container .infowrapper {
@@ -1749,11 +1823,16 @@ header .mobile-container .topnav .icon {
 .f-1 .container .f-3 h1 {
   color: #525C60;
   font-family: "ALK Life", sans-serif;
-  font-size: 22px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: 8px;
   line-height: 21px;
+}
+@media (max-width: 995px) {
+  .f-1 .container .f-3 h1 {
+    font-size: 20px;
+  }
 }
 .f-1 .container .f-3 a i {
   margin-bottom: 0px;

@@ -60,6 +60,11 @@
                font-size: 17px;
             }
         }
+        @media (max-width: 410px) {
+            h4 {
+                font-size: 14px;
+            }
+        }
 
         h2 {
             font-size: 20px;
@@ -96,6 +101,11 @@
                width: 350px;
             }
         }
+        @media (max-width: 410px) {
+            p {
+                width: 290px;
+            }
+        }
 
         h1 {
             font-family: "ALK Life", sans-serif;
@@ -121,6 +131,11 @@
         .child{
            width: 370px;
            height: 550px;
+        }
+    }
+    @media (max-width: 410px) {
+        .child {
+            width: 320px;
         }
     }
 

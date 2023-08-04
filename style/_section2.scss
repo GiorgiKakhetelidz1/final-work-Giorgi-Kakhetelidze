@@ -44,6 +44,11 @@
                     font-size: 30px;
                 }
             }
+            @media (max-width: 384px) {
+                .myh4 {
+                    top: 150px;
+                }
+            }
            
         } 
         @media (max-width: 821px) {
@@ -64,6 +69,11 @@
         @media (max-width: 440px) {
             .card{
                width: 350px;
+            }
+        }
+        @media (max-width: 384px) {
+            .card {
+                width: 310px;
             }
         }
     }   
@@ -103,6 +113,12 @@
                     width: 330px;
                 }
             }
+            @media (max-width: 384px) {
+                h3 {
+                    width: 300px;
+                    font-size: 28px;
+                }
+            }
         }
         @media (max-width: 821px) {
             .card2 {
@@ -122,6 +138,11 @@
         @media (max-width: 440px) {
             .card2 {
                width: 350px;
+            }
+        }
+        @media (max-width: 384px) {
+            .card2 {
+                width: 310px;
             }
         }
     }

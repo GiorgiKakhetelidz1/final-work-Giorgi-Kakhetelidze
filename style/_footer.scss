@@ -71,11 +71,16 @@
             h1 {
                 color: #525C60;
                 font-family: "ALK Life", sans-serif;
-                font-size: 22px;
+                font-size: 21px;
                 font-style: normal;
                 font-weight: 600;
                 margin-bottom: 8px;
                 line-height: 21px;
+            }
+            @media (max-width: 995px) {
+                h1 {
+                    font-size: 20px;
+                }
             }
             a {   
                 i {
