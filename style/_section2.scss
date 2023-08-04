@@ -39,6 +39,11 @@
                     left: 15px;
                 }
             }
+            @media (max-width: 441px) {
+                .myh4 {
+                    font-size: 30px;
+                }
+            }
            
         } 
         @media (max-width: 821px) {
@@ -92,6 +97,12 @@
                     left: 15px;
                 }
             }
+            @media (max-width: 441px) {
+                h3 {
+                    font-size: 35px;
+                    width: 330px;
+                }
+            }
         }
         @media (max-width: 821px) {
             .card2 {
@@ -123,5 +134,6 @@
         flex-direction: column;
         padding-top: 30px;
         height: 800px;
+        
     }
 }

@@ -574,6 +574,11 @@ header .mobile-container .topnav .icon {
     left: 15px;
   }
 }
+@media (max-width: 441px) {
+  .s-2 .mydiv1 .card .myh4 {
+    font-size: 30px;
+  }
+}
 @media (max-width: 821px) {
   .s-2 .mydiv1 .card {
     width: 500px;
@@ -620,6 +625,12 @@ header .mobile-container .topnav .icon {
 @media (max-width: 520px) {
   .s-2 .mydiv2 .card2 h3 {
     left: 15px;
+  }
+}
+@media (max-width: 441px) {
+  .s-2 .mydiv2 .card2 h3 {
+    font-size: 35px;
+    width: 330px;
   }
 }
 @media (max-width: 821px) {
@@ -1159,7 +1170,7 @@ header .mobile-container .topnav .icon {
 }
 @media (max-width: 460px) {
   .s-5 .container .mycard img {
-    width: 360px;
+    width: 350px;
     height: 300px;
   }
 }
@@ -1750,9 +1761,9 @@ header .mobile-container .topnav .icon {
 .f-1 .container .f-3 a img {
   width: 300px;
 }
-@media (max-width: 440px) {
+@media (max-width: 995px) {
   .f-1 .container .f-3 {
-    width: 400px;
+    width: 310px;
   }
 }
 .f-1 .container .f-4 {
